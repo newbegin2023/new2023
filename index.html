@@ -363,7 +363,7 @@
         // 选择Music的样式
         let musicAudio = music.querySelector("audio");
         //选取<div>下的audio这个标签，目的是控制music的播放和暂停
-        musicAudio.volume = 0.03;
+        musicAudio.volume = 0.5;
         music.addEventListener("click", function () {
           if (musicAudio.paused) {
             this.className = "music msrun";
